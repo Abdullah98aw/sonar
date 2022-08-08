@@ -21,7 +21,7 @@ pipeline {
             sh "mvn clean verify sonar:sonar \
   -Dsonar.projectKey=onsite-abdullah_alawad-B2D2 \
   -Dsonar.host.url=http://52.23.193.18 \
-  -Dsonar.login=sqp_24b040b6041791d40546be31eb2d95105019565a"
+  -Dsonar.login=sqp_c39134bca16ef09ff425d67df647155f769f9928"
                
       
                
