@@ -5,10 +5,10 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Compiling the Python code...
-      - python HelloWorld.py
+      - python HelloWorld-test.py
   post_build:
     commands:
       - echo Build completed on `date`
 artifacts:
   files:
-    - HelloWorld.py
+    - HelloWorlds.py
